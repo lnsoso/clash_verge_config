@@ -72,7 +72,6 @@ payload:
   - 'cbsservice.aws.syncbak.com'
   - 'cdn-spotify-experiments.conductrics.com'
   - 'cdn.js7k.com'
-  - 'cdn.jsdelivr.net'
   - 'cdngarenanow-a.akamaihd.net'
   - 'chinapower.csis.org'
   - 'cisco.evergage.com'
