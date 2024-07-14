@@ -6,6 +6,7 @@ payload:
   - DOMAIN-SUFFIX,schema.org
   - DOMAIN-SUFFIX,vercel.app
   - DOMAIN-SUFFIX,x.com
+  - DOMAIN-SUFFIX,battle.net
 #   - DOMAIN-SUFFIX,cdn.jsdelivr.net
   - DOMAIN-SUFFIX,linkedin.com
   - DOMAIN-KEYWORD,discord
