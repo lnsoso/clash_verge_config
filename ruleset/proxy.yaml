@@ -277,6 +277,7 @@ payload:
   - DOMAIN-SUFFIX,sharethis.com
   - DOMAIN-SUFFIX,shazam.com
   - DOMAIN-SUFFIX,sifangclub.net
+  - DOMAIN-SUFFIX,staticfile.org
   - DOMAIN-SUFFIX,simplenote.com
   - DOMAIN-SUFFIX,singlelogin.org
   - DOMAIN-SUFFIX,skype.com
