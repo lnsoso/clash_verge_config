@@ -40,8 +40,6 @@
   - '+.steamdeck.com'
   - '+.steamgames.com'
   - '+.steamofporn.com'
-  - '+.steampowered.com'
   - '+.steamserver.net'
   - '+.steamstatic.com'
   - '+.steamunlocked.net'
-  - '+.steamusercontent.com'
