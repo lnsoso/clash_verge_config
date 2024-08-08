@@ -43,3 +43,4 @@
   - '+.steamserver.net'
   - '+.steamstatic.com'
   - '+.steamunlocked.net'
+  - '+.d2core.com'
