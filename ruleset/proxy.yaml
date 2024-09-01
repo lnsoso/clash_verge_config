@@ -1,6 +1,6 @@
 payload:
   - DOMAIN-SUFFIX,ahhhhfs.com
-# - DOMAIN-SUFFIX,instapaper.com
+  - DOMAIN-SUFFIX,instapaper.com
   - DOMAIN-SUFFIX,api.melonloader.com
   - DOMAIN-SUFFIX,nexusmods.com
   - DOMAIN-SUFFIX,sagernet.org
@@ -32,10 +32,6 @@ payload:
   - DOMAIN-SUFFIX,threads.net
   - DOMAIN-SUFFIX,fontawesome.com
   - DOMAIN-SUFFIX,app.shopify.com
-#   - DOMAIN-SUFFIX,openai.com
-#   - DOMAIN-SUFFIX,anthropic.com
-#   - DOMAIN-SUFFIX,claude.ai
-#   - DOMAIN-SUFFIX,ai.com
   - DOMAIN-SUFFIX,challenges.cloudflare.com
   - DOMAIN-SUFFIX,spotify.com
   - DOMAIN-SUFFIX,linktr.ee
