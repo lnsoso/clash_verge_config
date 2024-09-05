@@ -1,6 +1,6 @@
 payload:
   - DOMAIN-SUFFIX,ahhhhfs.com
-  - DOMAIN-SUFFIX,instapaper.com
+  #- DOMAIN-SUFFIX,instapaper.com
   - DOMAIN-SUFFIX,api.melonloader.com
   - DOMAIN-SUFFIX,nexusmods.com
   - DOMAIN-SUFFIX,sagernet.org
@@ -13,7 +13,7 @@ payload:
   - DOMAIN-SUFFIX,schema.org
   - DOMAIN-SUFFIX,vercel.app
   - DOMAIN-SUFFIX,x.com
-# - DOMAIN-SUFFIX,cdn.jsdelivr.net
+  # - DOMAIN-SUFFIX,cdn.jsdelivr.net
   - DOMAIN-SUFFIX,linkedin.com
   - DOMAIN-KEYWORD,discord
   - DOMAIN-SUFFIX,rxmile.com
@@ -38,7 +38,7 @@ payload:
   - DOMAIN-SUFFIX,rfp4ucx.xyz
   - DOMAIN-KEYWORD,killcovid
   - DOMAIN-SUFFIX,zatao.so
-#   - DOMAIN-SUFFIX,epicgames.com
+  #   - DOMAIN-SUFFIX,epicgames.com
   - DOMAIN-KEYWORD,blogspot
   - DOMAIN-KEYWORD,dukou
   - DOMAIN-KEYWORD,facebook
