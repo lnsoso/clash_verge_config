@@ -36,7 +36,10 @@ payload:
   - DOMAIN-SUFFIX,api.statsig.com
   - DOMAIN-SUFFIX,algolia.net
   - DOMAIN-SUFFIX,ai.com
+  - DOMAIN-SUFFIX,cursor.sh
   - DOMAIN-KEYWORD,openai
+  - DOMAIN-KEYWORD,cursor
+  - DOMAIN-KEYWORD,zed
   - DOMAIN-KEYWORD,claude
   - DOMAIN-KEYWORD,anthropic
   - IP-CIDR,64.23.132.171/32
