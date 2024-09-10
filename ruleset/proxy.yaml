@@ -2,6 +2,7 @@ payload:
   - DOMAIN-SUFFIX,ahhhhfs.com
   #- DOMAIN-SUFFIX,instapaper.com
   - DOMAIN-SUFFIX,api.melonloader.com
+  - DOMAIN-SUFFIX,saiboyun.org
   - DOMAIN-SUFFIX,nexusmods.com
   - DOMAIN-SUFFIX,sagernet.org
   - DOMAIN-SUFFIX,store.steampowered.com
