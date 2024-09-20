@@ -38,6 +38,7 @@ payload:
   - DOMAIN-SUFFIX,algolia.net
   - DOMAIN-SUFFIX,ai.com
   - DOMAIN-SUFFIX,cursor.sh
+  - DOMAIN-SUFFIX,huggingface.co
   - DOMAIN-KEYWORD,openai
   - DOMAIN-KEYWORD,cursor
   - DOMAIN-KEYWORD,zed
