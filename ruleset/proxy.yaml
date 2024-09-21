@@ -161,6 +161,7 @@ payload:
   - DOMAIN-SUFFIX,git.io
   - DOMAIN-SUFFIX,github.com
   - DOMAIN-SUFFIX,github.io
+  - DOMAIN-SUFFIX,gitbook.io
   - DOMAIN-SUFFIX,githubapp.com
   - DOMAIN-SUFFIX,githubusercontent.com
   - DOMAIN-SUFFIX,globalsign.com
