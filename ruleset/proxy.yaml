@@ -17,6 +17,7 @@ payload:
   - DOMAIN-KEYWORD,xnxx
   - DOMAIN-KEYWORD,xyz
   - DOMAIN-KEYWORD,youtube
+  - DOMAIN-SUFFIX,sigmob.com
   - DOMAIN-SUFFIX,1lib.org
   - DOMAIN-SUFFIX,3lib.net
   - DOMAIN-SUFFIX,4sqi.net
