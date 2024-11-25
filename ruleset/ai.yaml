@@ -44,9 +44,9 @@ payload:
   - DOMAIN-SUFFIX,huggingface.co
   - DOMAIN-KEYWORD,openai
   - DOMAIN-KEYWORD,cursor
-  - DOMAIN-KEYWORD,zed
+  # - DOMAIN-KEYWORD,zed
   - DOMAIN-KEYWORD,claude
   - DOMAIN-KEYWORD,anthropic
   - IP-CIDR,64.23.132.171/32
   - IP-CIDR,24.199.123.28/32
-  # - IP-ASN,20473
+  - IP-ASN,20473
