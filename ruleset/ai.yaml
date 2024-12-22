@@ -6,6 +6,7 @@ payload:
   - DOMAIN,static.cloudflareinsights.com
   - DOMAIN,production-openaicom-storage.azureedge.net
   - DOMAIN,openaicomproductionae4b.blob.core.windows.net
+  - DOMAIN,copilot.microsoft.com
   - DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
   - DOMAIN,openai-api.arkoselabs.com
   - DOMAIN,gemini.google.com
