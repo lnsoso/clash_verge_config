@@ -4,6 +4,7 @@ payload:
   - DOMAIN-SUFFIX,apple-relay.cloudflare.com
   - DOMAIN-KEYWORD,apple-relay
   - DOMAIN-KEYWORD,copilot
+  - DOMAIN,aka.ms
   - DOMAIN,static.cloudflareinsights.com
   - DOMAIN,production-openaicom-storage.azureedge.net
   - DOMAIN,openaicomproductionae4b.blob.core.windows.net
