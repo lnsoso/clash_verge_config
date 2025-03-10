@@ -290,7 +290,7 @@ payload:
   - DOMAIN-SUFFIX,startpage.com
   - DOMAIN-SUFFIX,staticflickr.com
   # - DOMAIN-SUFFIX,steamcommunity.com
-  # - DOMAIN-SUFFIX,store.steampowered.com
+  - DOMAIN-SUFFIX,store.steampowered.com
   - DOMAIN-SUFFIX,surge.run
   - DOMAIN-SUFFIX,symauth.com
   - DOMAIN-SUFFIX,symcb.com
