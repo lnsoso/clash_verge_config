@@ -37,7 +37,7 @@ payload:
   - DOMAIN-SUFFIX,angularjs.org
   - DOMAIN-SUFFIX,aolcdn.com
   - DOMAIN-SUFFIX,api.melonloader.com
-  # - DOMAIN-SUFFIX,api.steampowered.com
+  - DOMAIN-SUFFIX,api.steampowered.com
   - DOMAIN-SUFFIX,app.shopify.com
   - DOMAIN-SUFFIX,apple-dns.net
   - DOMAIN-SUFFIX,appledaily.com
