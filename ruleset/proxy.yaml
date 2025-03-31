@@ -27,6 +27,7 @@ payload:
   - DOMAIN-SUFFIX,9to5mac.com
   - DOMAIN-SUFFIX,abpchina.org
   - DOMAIN-SUFFIX,adblockplus.org
+  - DOMAIN-SUFFIX,adobe.com
   - DOMAIN-SUFFIX,adobedtm.com
   - DOMAIN-SUFFIX,aerisapi.com
   - DOMAIN-SUFFIX,ahhhhfs.com
