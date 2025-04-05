@@ -49,6 +49,7 @@ payload:
   - DOMAIN-SUFFIX,huggingface.co
   - DOMAIN-KEYWORD,openai
   - DOMAIN-KEYWORD,cursor
+  - DOMAIN-KEYWORD,groq
   # - DOMAIN-KEYWORD,zed
   - DOMAIN-KEYWORD,claude
   - DOMAIN-KEYWORD,anthropic
