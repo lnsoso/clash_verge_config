@@ -1,6 +1,7 @@
 payload:
   # - DOMAIN-SUFFIX,shared.fastly.steamstatic.com
   - DOMAIN-SUFFIX,greasyfork.org
+  - DOMAIN-KEYWORD,longbridge
   - DOMAIN-KEYWORD,blogspot
   - DOMAIN-KEYWORD,cachefly
   - DOMAIN-KEYWORD,discord
