@@ -46,12 +46,14 @@ payload:
   - DOMAIN-SUFFIX,ai.com
   - DOMAIN-SUFFIX,suno.com
   - DOMAIN-SUFFIX,cursor.sh
+  - DOMAIN-SUFFIX,zed.dev
   - DOMAIN-SUFFIX,huggingface.co
   - DOMAIN-KEYWORD,openai
   - DOMAIN-KEYWORD,cursor
-  - DOMAIN-KEYWORD,groq
+  - DOMAIN-KEYWORD,grok
   # - DOMAIN-KEYWORD,zed
   - DOMAIN-KEYWORD,claude
+  - DOMAIN-KEYWORD,zed
   - DOMAIN-KEYWORD,anthropic
   - IP-CIDR,64.23.132.171/32
   - IP-CIDR,24.199.123.28/32
