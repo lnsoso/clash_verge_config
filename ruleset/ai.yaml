@@ -55,8 +55,6 @@ payload:
   - DOMAIN-KEYWORD,zed
   - DOMAIN-KEYWORD,anthropic
   - DOMAIN-SUFFIX,trae.ai
-  - DOMAIN-SUFFIX,devv.ai
-  - DOMAIN-SUFFIX,devv-api.ai
   - IP-CIDR,64.23.132.171/32
   - IP-CIDR,24.199.123.28/32
   - IP-ASN,20473
