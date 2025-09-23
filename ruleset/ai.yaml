@@ -44,6 +44,7 @@ payload:
   - DOMAIN-SUFFIX,api.statsig.com
   - DOMAIN-SUFFIX,algolia.net
   - DOMAIN-SUFFIX,ai.com
+  - DOMAIN-SUFFIX,ai
   - DOMAIN-SUFFIX,suno.com
   - DOMAIN-SUFFIX,cursor.sh
   - DOMAIN-SUFFIX,huggingface.co
