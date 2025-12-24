@@ -48,6 +48,7 @@ payload:
   - DOMAIN-SUFFIX,ai.com
   - DOMAIN-SUFFIX,ai
   - DOMAIN-SUFFIX,suno.com
+  - DOMAIN-SUFFIX,suno-ai.org
   - DOMAIN-SUFFIX,cursor.sh
   - DOMAIN-SUFFIX,huggingface.co
   - DOMAIN-KEYWORD,openai
