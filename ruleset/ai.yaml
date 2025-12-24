@@ -4,16 +4,16 @@ payload:
   - DOMAIN-SUFFIX,apple-relay.cloudflare.com
   - DOMAIN-KEYWORD,apple-relay
   - DOMAIN-KEYWORD,copilot
-  - DOMAIN,aka.ms
-  - DOMAIN,static.cloudflareinsights.com
-  - DOMAIN,production-openaicom-storage.azureedge.net
-  - DOMAIN,openaicomproductionae4b.blob.core.windows.net
-  - DOMAIN,copilot.microsoft.com
-  - DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
-  - DOMAIN,openai-api.arkoselabs.com
-  - DOMAIN,gemini.google.com
-  - DOMAIN,chat.openai.com.cdn.cloudflare.net
-  - DOMAIN,browser-intake-datadoghq.com
+  - DOMAIN-SUFFIX,aka.ms
+  - DOMAIN-SUFFIX,static.cloudflareinsights.com
+  - DOMAIN-SUFFIX,production-openaicom-storage.azureedge.net
+  - DOMAIN-SUFFIX,openaicomproductionae4b.blob.core.windows.net
+  - DOMAIN-SUFFIX,copilot.microsoft.com
+  - DOMAIN-SUFFIX,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
+  - DOMAIN-SUFFIX,openai-api.arkoselabs.com
+  - DOMAIN-SUFFIX,gemini.google.com
+  - DOMAIN-SUFFIX,chat.openai.com.cdn.cloudflare.net
+  - DOMAIN-SUFFIX,browser-intake-datadoghq.com
   - DOMAIN-SUFFIX,turn.livekit.cloud
   - DOMAIN-SUFFIX,stripe.com
   - DOMAIN-SUFFIX,sentry.io
