@@ -54,6 +54,7 @@ payload:
   - DOMAIN-SUFFIX,huggingface.co
   - DOMAIN-KEYWORD,openai
   - DOMAIN-KEYWORD,cursor
+  - DOMAIN-KEYWORD,antigravity
   - DOMAIN-KEYWORD,aistudio
   - DOMAIN-KEYWORD,grok
   - DOMAIN-KEYWORD,gemini
