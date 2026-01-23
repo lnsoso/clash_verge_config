@@ -58,6 +58,7 @@ payload:
   - DOMAIN-KEYWORD,aistudio
   - DOMAIN-KEYWORD,grok
   - DOMAIN-KEYWORD,gemini
+  - DOMAIN-KEYWORD,manus
   - DOMAIN-KEYWORD,claude
   - DOMAIN-SUFFIX,zed.dev
   - DOMAIN-KEYWORD,zed
