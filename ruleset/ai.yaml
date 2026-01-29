@@ -46,6 +46,7 @@ payload:
   - DOMAIN-SUFFIX,auth0.com
   - DOMAIN-SUFFIX,api.statsig.com
   - DOMAIN-SUFFIX,algolia.net
+  - DOMAIN-SUFFIX,api.jetbrains.ai
   - DOMAIN-SUFFIX,ai.com
   - DOMAIN-SUFFIX,ai
   - DOMAIN-SUFFIX,suno.com
