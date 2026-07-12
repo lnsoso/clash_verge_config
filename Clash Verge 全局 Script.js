@@ -311,6 +311,7 @@ function main(config, profileName) {
       name: "JapanProxy",
       type: "select",
       "include-all": true,
+      "exclude-filter": "免费",
       filter: "日本|JP|Japan|japan|日|🇯🇵|🎌|🔴",
       icon: "https://fastly.jsdelivr.net/gh/clash-verge-rev/clash-verge-rev.github.io@main/docs/assets/icons/flags/jp.svg",
     },
