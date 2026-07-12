@@ -352,7 +352,7 @@ function main(config, profileName) {
       type: "url-test",
       tolerance: 20,
       "include-all": true,
-      "exclude-filter": "^免费",
+      "exclude-filter": "免费",
       icon: "https://fastly.jsdelivr.net/gh/clash-verge-rev/clash-verge-rev.github.io@main/docs/assets/icons/speed.svg",
     },
     {
