@@ -59,6 +59,12 @@ const ruleProviderCommon = {
 
 // 规则集配置
 const ruleProviders = {
+  forceDirect: {
+    ...ruleProviderCommon,
+    behavior: "classical",
+    url: "https://raw.githubusercontent.com/lnsoso/clash_verge_config/main/ruleset/force-direct.yaml",
+    path: "./ruleset/lnsoso/force-direct.yaml",
+  },
   ai: {
     ...ruleProviderCommon,
     behavior: "classical",
@@ -196,6 +202,7 @@ const ruleProviders = {
 // 规则
 const rules = [
   // 自定义规则
+  "RULE-SET,forceDirect,DIRECT",
   "RULE-SET,ai,AI美国",
   "RULE-SET,Gemini,AI美国",
   "RULE-SET,japan,JapanProxy",
