@@ -8,14 +8,14 @@ const domesticNameservers = [
 ];
 // 国外DNS服务器
 const foreignNameservers = [
-  "https://dns.google/dns-query", // Google
-  "https://8.8.8.8/dns-query", // Google
-  "https://8.8.4.4/dns-query", // Google
-  "https://cloudflare-dns.com/dns-query", // Cloudflare
-  "https://1.1.1.1/dns-query", // Cloudflare(主)
-  "https://1.0.0.1/dns-query", // Cloudflare(备)
-  "https://208.67.222.222/dns-query", // OpenDNS(主)
-  "https://208.67.220.220/dns-query" // OpenDNS(备)
+  "https://dns.google/dns-query#节点选择", // Google
+  "https://8.8.8.8/dns-query#节点选择", // Google
+  "https://8.8.4.4/dns-query#节点选择", // Google
+  "https://cloudflare-dns.com/dns-query#节点选择", // Cloudflare
+  "https://1.1.1.1/dns-query#节点选择", // Cloudflare(主)
+  "https://1.0.0.1/dns-query#节点选择", // Cloudflare(备)
+  "https://208.67.222.222/dns-query#节点选择", // OpenDNS(主)
+  "https://208.67.220.220/dns-query#节点选择", // OpenDNS(备)
 ];
 // DNS配置
 const dnsConfig = {
@@ -42,11 +42,9 @@ const dnsConfig = {
   "default-nameserver": [
     "114.114.114.114",
     "119.29.29.29",
-    "8.8.8.8",
-    "1.1.1.1",
   ], // "223.6.6.6"
   nameserver: [...domesticNameservers, ...foreignNameservers],
-  "proxy-server-nameserver": [...domesticNameservers, ...foreignNameservers],
+  "proxy-server-nameserver": [...domesticNameservers],
   "nameserver-policy": {
     "geosite:private,cn,geolocation-cn": domesticNameservers,
     "geosite:google,youtube,telegram,gfw,geolocation-!cn": foreignNameservers,
@@ -198,15 +196,6 @@ const ruleProviders = {
 // 规则
 const rules = [
   // 自定义规则
-  // DNS走代理：国外DoH经代理可达，避免国内直连被墙导致直连域名解析失败
-  "DOMAIN-SUFFIX,cloudflare-dns.com,节点选择",
-  "DOMAIN-SUFFIX,dns.google,节点选择",
-  "IP-CIDR,1.1.1.1/32,节点选择,no-resolve",
-  "IP-CIDR,1.0.0.1/32,节点选择,no-resolve",
-  "IP-CIDR,8.8.8.8/32,节点选择,no-resolve",
-  "IP-CIDR,8.8.4.4/32,节点选择,no-resolve",
-  "IP-CIDR,208.67.222.222/32,节点选择,no-resolve",
-  "IP-CIDR,208.67.220.220/32,节点选择,no-resolve",
   "RULE-SET,ai,AI美国",
   "RULE-SET,Gemini,AI美国",
   "RULE-SET,japan,JapanProxy",
