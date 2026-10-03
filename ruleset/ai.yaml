@@ -36,6 +36,7 @@ payload:
   - DOMAIN-SUFFIX,chatgpt.livekit.cloud
   - DOMAIN-SUFFIX,chatgpt.com
   - DOMAIN-SUFFIX,manus.im
+  - DOMAIN-SUFFIX,muse.ai
   - DOMAIN-SUFFIX,chat.openai.com.cdn.cloudflare.net
   - DOMAIN-SUFFIX,challenges.cloudflare.com
   - DOMAIN-SUFFIX,bing.com
