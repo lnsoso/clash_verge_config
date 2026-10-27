@@ -8,10 +8,10 @@ const domesticNameservers = [
 ];
 // 国外DNS服务器
 const foreignNameservers = [
-  "https://dns.google/dns-query#节点选择", // Google
+  "https://8.8.8.8/dns-query#节点选择", // Google(原 dns.google，已验证可达)
   "https://8.8.8.8/dns-query#节点选择", // Google
   "https://8.8.4.4/dns-query#节点选择", // Google
-  "https://cloudflare-dns.com/dns-query#节点选择", // Cloudflare
+  "https://1.1.1.1/dns-query#节点选择", // Cloudflare(原 cloudflare-dns.com，已验证可达)
   "https://1.1.1.1/dns-query#节点选择", // Cloudflare(主)
   "https://1.0.0.1/dns-query#节点选择", // Cloudflare(备)
   "https://208.67.222.222/dns-query#节点选择", // OpenDNS(主)
@@ -21,7 +21,7 @@ const foreignNameservers = [
 const dnsConfig = {
   enable: true,
   listen: "0.0.0.0:7899",
-  ipv6: true,
+  ipv6: false,
   "use-system-hosts": true,
   "cache-algorithm": "arc",
   "enhanced-mode": "fake-ip",
@@ -56,7 +56,7 @@ const dnsConfig = {
 const ruleProviderCommon = {
   type: "http",
   format: "yaml",
-  interval: 150,
+  interval: 1800,
 };
 
 // 规则集配置
@@ -64,49 +64,49 @@ const ruleProviders = {
   forceDirect: {
     ...ruleProviderCommon,
     behavior: "classical",
-    url: "https://raw.githubusercontent.com/lnsoso/clash_verge_config/main/ruleset/force-direct.yaml",
+    url: "https://fastly.jsdelivr.net/gh/lnsoso/clash_verge_config@main/ruleset/force-direct.yaml",
     path: "./ruleset/lnsoso/force-direct.yaml",
   },
   ai: {
     ...ruleProviderCommon,
     behavior: "classical",
-    url: "https://raw.githubusercontent.com/lnsoso/clash_verge_config/main/ruleset/ai.yaml",
+    url: "https://fastly.jsdelivr.net/gh/lnsoso/clash_verge_config@main/ruleset/ai.yaml",
     path: "./ruleset/lnsoso/ai.yaml",
   },
   Gemini: {
     ...ruleProviderCommon,
     behavior: "classical",
-    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Gemini/Gemini.yaml",
+    url: "https://fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Gemini/Gemini.yaml",
     path: "./ruleset/lnsoso/gemini.yaml",
   },
   us: {
     ...ruleProviderCommon,
     behavior: "classical",
-    url: "https://raw.githubusercontent.com/lnsoso/clash_verge_config/main/ruleset/us.yaml",
+    url: "https://fastly.jsdelivr.net/gh/lnsoso/clash_verge_config@main/ruleset/us.yaml",
     path: "./ruleset/lnsoso/us.yaml",
   },
   japan: {
     ...ruleProviderCommon,
     behavior: "classical",
-    url: "https://raw.githubusercontent.com/lnsoso/clash_verge_config/main/ruleset/japan.yaml",
+    url: "https://fastly.jsdelivr.net/gh/lnsoso/clash_verge_config@main/ruleset/japan.yaml",
     path: "./ruleset/lnsoso/japan.yaml",
   },
   porn: {
     ...ruleProviderCommon,
     behavior: "classical",
-    url: "https://raw.githubusercontent.com/lnsoso/clash_verge_config/main/ruleset/porn.yaml",
+    url: "https://fastly.jsdelivr.net/gh/lnsoso/clash_verge_config@main/ruleset/porn.yaml",
     path: "./ruleset/lnsoso/porn.yaml",
   },
   tiktok: {
     ...ruleProviderCommon,
     behavior: "classical",
-    url: "https://raw.githubusercontent.com/lnsoso/clash_verge_config/main/ruleset/tiktok.yaml",
+    url: "https://fastly.jsdelivr.net/gh/lnsoso/clash_verge_config@main/ruleset/tiktok.yaml",
     path: "./ruleset/lnsoso/tiktok.yaml",
   },
   game: {
     ...ruleProviderCommon,
     behavior: "domain",
-    url: "https://raw.githubusercontent.com/lnsoso/clash_verge_config/main/ruleset/game.txt",
+    url: "https://fastly.jsdelivr.net/gh/lnsoso/clash_verge_config@main/ruleset/game.txt",
     path: "./ruleset/lnsoso/game.yaml",
   },
   reject: {
@@ -136,13 +136,13 @@ const ruleProviders = {
   spotify: {
     ...ruleProviderCommon,
     behavior: "classical",
-    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Spotify/Spotify.yaml",
+    url: "https://fastly.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Spotify/Spotify.yaml",
     path: "./ruleset/lnsoso/spotify.yaml",
   },
   proxy: {
     ...ruleProviderCommon,
     behavior: "classical",
-    url: "https://raw.githubusercontent.com/lnsoso/clash_verge_config/main/ruleset/proxy.yaml",
+    url: "https://fastly.jsdelivr.net/gh/lnsoso/clash_verge_config@main/ruleset/proxy.yaml",
     path: "./ruleset/lnsoso/proxy.yaml",
   },
   direct: {
@@ -210,7 +210,6 @@ const rules = [
   "RULE-SET,japan,JapanProxy",
   "RULE-SET,us,USProxy",
   "RULE-SET,game,游戏",
-  "RULE-SET,game,Spotify",
   "RULE-SET,porn,节点选择",
   "RULE-SET,tiktok,TikTok",
   "DOMAIN-SUFFIX,googleapis.cn,节点选择", // Google服务
@@ -224,7 +223,7 @@ const rules = [
   "RULE-SET,applications,全局直连",
   "RULE-SET,private,全局直连",
   "RULE-SET,reject,广告过滤",
-  "RULE-SET,icloud,微软服务",
+  "RULE-SET,icloud,苹果服务",
   "RULE-SET,apple,苹果服务",
   "RULE-SET,google,谷歌服务",
   "RULE-SET,proxy,节点选择",
