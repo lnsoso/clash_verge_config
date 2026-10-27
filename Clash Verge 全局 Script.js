@@ -43,7 +43,9 @@ const dnsConfig = {
     "114.114.114.114",
     "119.29.29.29",
   ], // "223.6.6.6"
-  nameserver: [...domesticNameservers, ...foreignNameservers],
+  // 兜底解析仅用国内DoH；mihomo并发取最先返回的结果，
+  // 混入国外DoH时污染响应(低延迟)会先到被采用，故国外域名一律由nameserver-policy单走国外DoH
+  nameserver: [...domesticNameservers],
   "proxy-server-nameserver": [...domesticNameservers],
   "nameserver-policy": {
     "geosite:private,cn,geolocation-cn": domesticNameservers,
